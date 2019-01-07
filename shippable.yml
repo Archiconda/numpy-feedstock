@@ -51,7 +51,7 @@ build:
     # - conda install conda-build anaconda-client --yes
     # For noarch packages
     # But for now, they all crash
-    # - conda config --add channels conda-forge
+    - conda config --add channels conda-forge
     # - conda config --add channels archiarm
     - conda --version
     - conda config --show
