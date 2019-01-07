@@ -1,0 +1,23 @@
+BUILD: aarch64-conda_cos7-linux-gnu
+c_compiler:
+- gcc
+channel_sources:
+- archiarm,
+channel_targets:
+- archiarm main
+cxx_compiler:
+- gxx
+fortran_compiler:
+- gfortran
+numpy:
+- '1.9'
+openblas:
+- 0.3.3
+pin_run_as_build:
+  openblas:
+    max_pin: x.x.x
+  python:
+    min_pin: x.x
+    max_pin: x.x
+python:
+- '3.7'
