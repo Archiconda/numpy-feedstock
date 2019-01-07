@@ -1,4 +1,5 @@
 #!/bin/bash
+set -ex
 
 mv numpy/distutils/environment.py numpy/distutils/fcompiler/environment.py
 # Let cython re-genatare this file.
