@@ -1,7 +1,8 @@
 #!/bin/bash
 set -ex
 
-mv numpy/distutils/environment.py numpy/distutils/fcompiler/environment.py
+# apparently patch moves this file for us???
+# mv numpy/distutils/environment.py numpy/distutils/fcompiler/environment.py
 # Let cython re-genatare this file.
 rm -f numpy/random/mtrand/mtrand.c
 rm -f PKG-INFO
