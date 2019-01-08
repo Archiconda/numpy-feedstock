@@ -16,4 +16,6 @@ include_dirs = $PREFIX/include
 
 EOF
 
+# Regenerate this specific file
+rm numpy/random/mtrand/mtrand.c
 $PYTHON -m pip install --no-deps --ignore-installed .
