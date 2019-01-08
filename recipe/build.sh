@@ -16,6 +16,8 @@ include_dirs = $PREFIX/include
 
 EOF
 
+# Regenerate this specific file
+rm numpy/random/mtrand/mtrand.c
 
 $PYTHON setup.py config
 $PYTHON setup.py build
