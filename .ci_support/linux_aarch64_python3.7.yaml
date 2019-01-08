@@ -4,7 +4,7 @@ channel_sources:
 channel_targets:
 - archiarm main
 numpy:
-- '1.9'
+- '1.11'
 pin_run_as_build:
   python:
     min_pin: x.x
