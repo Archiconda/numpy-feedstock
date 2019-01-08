@@ -10,7 +10,7 @@ cxx_compiler:
 fortran_compiler:
 - gfortran
 numpy:
-- '1.9'
+- '1.11'
 openblas:
 - 0.3.5
 pin_run_as_build:
